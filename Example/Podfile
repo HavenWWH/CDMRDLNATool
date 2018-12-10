@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CDMRDLNATool_Example' do
+  pod 'CDMRDLNATool', :path => '../'
+
+  target 'CDMRDLNATool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
