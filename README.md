@@ -11,10 +11,13 @@
 [[CDDLNATool sharedInstance] searchDevicesBlock:^(NSMutableArray *devicesArray) {
 
 NSLog(@"devices%@", devicesArray);
+
 if (devicesArray.count == 0) return;
 
 [[CDDLNATool sharedInstance] initDLNAWithDevice: devicesArray[0] playUrl: @""];
+
 [[CDDLNATool sharedInstance] startDLNA];
+
 }];
 
 ## Requirements
@@ -30,7 +33,7 @@ pod 'CDMRDLNATool'
 
 ## Author
 
-513433750@qq.com, 513433750@qq.com
+ 513433750@qq.com
 
 ## License
 
