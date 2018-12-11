@@ -1,0 +1,6 @@
+framework module Pods_CDMRDLNATool_Example {
+  umbrella header "Pods-CDMRDLNATool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

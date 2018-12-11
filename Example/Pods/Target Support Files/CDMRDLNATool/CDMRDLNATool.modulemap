@@ -1,0 +1,6 @@
+framework module CDMRDLNATool {
+  umbrella header "CDMRDLNATool-umbrella.h"
+
+  export *
+  module * { export * }
+}

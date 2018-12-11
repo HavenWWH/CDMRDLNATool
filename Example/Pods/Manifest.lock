@@ -1,0 +1,31 @@
+PODS:
+  - CDMRDLNATool (0.1.0):
+    - CocoaAsyncSocket
+    - MRDLNA (~> 0.1.1)
+  - CocoaAsyncSocket (7.6.3)
+  - MRDLNA (0.1.1):
+    - CocoaAsyncSocket
+    - MRDLNA/MRC (= 0.1.1)
+  - MRDLNA/MRC (0.1.1):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - CDMRDLNATool (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - MRDLNA
+
+EXTERNAL SOURCES:
+  CDMRDLNATool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CDMRDLNATool: 64e7f95b4319ee91246a0ec250f4b0b7f8951951
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
+
+PODFILE CHECKSUM: 16bb9eafe09ca28eee321688cf3529b064fb59f8
+
+COCOAPODS: 1.5.3

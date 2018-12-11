@@ -8,6 +8,8 @@
 
 #import "CDViewController.h"
 
+#import "CDDLNATool.h"
+
 @interface CDViewController ()
 
 @end
@@ -17,7 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +28,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [[CDDLNATool sharedInstance] searchDevicesBlock:^(NSMutableArray *devicesArray) {
+        
+        NSLog(@"devices%@", devicesArray);
+    }];
+}
 @end
