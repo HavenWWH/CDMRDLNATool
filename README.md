@@ -7,7 +7,15 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+### 投屏工具
+[[CDDLNATool sharedInstance] searchDevicesBlock:^(NSMutableArray *devicesArray) {
+
+NSLog(@"devices%@", devicesArray);
+if (devicesArray.count == 0) return;
+
+[[CDDLNATool sharedInstance] initDLNAWithDevice: devicesArray[0] playUrl: @""];
+[[CDDLNATool sharedInstance] startDLNA];
+}];
 
 ## Requirements
 
