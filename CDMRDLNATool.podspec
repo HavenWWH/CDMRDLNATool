@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 投屏工具, 基于MRDLNA第三方的封装, 方便使用
                        DESC
 
-  s.homepage         = 'https://github.com/513433750@qq.com/CDMRDLNATool'
+  s.homepage         = 'https://github.com/HavenWWH'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = 'MIT'
   s.author           = { '513433750@qq.com' => '513433750@qq.com' }
